@@ -1,0 +1,22 @@
+JAVASCRIPT LEARNING
+javascript:A programming language that interracts with the browser making it interractive and responsive.
+
+USES OF JAVASCRIPT
+-User interractivity:How a user interracts with the pages,etc.
+-Reactivity:automatic loading of data to a page.
+
+Where to write javascript,we have internal javascript and external javascript
+-internal javascript is inside HTML
+-it can come in two ways:script stag,where u can have it in the head section or at the inside of body section,where it is the most common ones.
+-external javascript is run using a source attribute <script src=""></script>
+
+JAVASCRIPT VARIABLES.
+-A container used to store values.
+
+RULES FOR NAMING VARIABLES.
+-Are identified with unique identifiers
+-Rules for identifiers,variables can only begin with letters,underscores,dollar signs,underscores.
+-variable names begin with letters,underscores,dollar signs.
+-variable names are case sensitive
+-words cant be reserved sensitive
+-

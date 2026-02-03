@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STRING METHODS</title>
+</head>
+<body>
+    */* STRING METHODS */
+    <DIV>
+        STRINGS IN JAVASCRIPT
+    </DIV>
+    <script>
+        //length method
+        let email="janedoe@gmail.com"
+        console.log(email.length)
+
+        //indexing using javascript
+        console.log(email.length[email.length - 1])
+
+        //CHAR at method:This returns the character at a specified index
+        console.log(email.charAt(4))
+        //javascript doesnt have a negative indexing
+
+
+        //SLICING
+        //extracts a part of a string from the original string.
+        console.log(email.slice(0,6))
+
+        //toUpperCase method
+        let upper = email.toUpperCase()
+        console.log(upper)
+
+        //toLowerCase method
+        let lower = email.toLowerCase()
+        console.log(lower)
+
+        //trim method
+        //Trim start removes whitespaces at the beginning of the string
+        //Trim end removes whitespaces at the end of the string
+
+        let text1 = "     Hello World!     "
+        let text2 = text1.trim()
+        console.log(text2)
+
+        let str = " ABCDEF . "
+        console.log(str.trim())
+
+        
+        //Concatenation:used in place of combining twp strings,they use a plus(+)operator to join strings.
+        let first_name = "Mike"
+        let second_name = "Tyson"
+        //let full_name = first_name.concat(second_name)
+        let full_name = first_name + " " + second_name
+        console.log(full_name)
+
+        //REPLACE METHOD:used to replace a part of a string with another string.
+        let name = "Hillary Clinton"
+        let new_name = name.replace("Clinton","Maina")
+        console.log(new_name)
+
+
+        //Startswith method:used to check whether a string starts with a specified string/characterand returns boolean.
+        //Endswith method:used tocheck a string starts with a specified string/character and returns a boolean.
+
+        let names = "Hillary Clinton"
+
+// 1. Checks if the string begins exactly with "Hill"
+console.log(names.startsWith("Hill")) // Output: true
+
+// 2. Checks if the string ends exactly with "Clint"
+console.log(names.endsWith("Clint"))   // Output: false
+
+//SPLIT METHOD:used to split a string into an array of substrings based on a specified separator.
+let sentence = "Hello my name is, hillary"
+console.log(sentence.split(","))
+
+//SUBSTRING METHOD:used to extract a part of a string between two specified indices.
+let text = "Hello my name is Hillary"
+console.log(text.substring(0,5)) //Output: Hellol
+
+    </script>
+</body>
+</html>
